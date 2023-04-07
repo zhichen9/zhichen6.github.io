@@ -63,7 +63,7 @@ exclude: null
 ignore: null
 theme: icarus
 deploy:
-  - type: git
-    repo:
-      github: git@github.com:jinyiliu/jinyiliu.github.io.git
-    branch: main
+  type: git
+  repo: git@github.com:jinyiliu/jinyiliu.github.io.git
+  branch: gh-pages
+  message: hexo deploy
